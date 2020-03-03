@@ -1,0 +1,7 @@
+.hero-lg {
+  background-image: url("../Images/hero-lg.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  height: 80vh;
+}
