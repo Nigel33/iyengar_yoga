@@ -1,0 +1,6 @@
+.bks-background {  
+  background: url("../Images/bks_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;  
+}
