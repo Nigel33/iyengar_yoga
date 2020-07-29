@@ -11,7 +11,7 @@ const Committee = () => {
       <Container className="pt-5 pb-5">
         <Row>
           <Col xs={12} className="pb-5">
-            <h2 className="text-light text-center">Committee</h2>            
+            <h2 className="text-dark text-center">Committee</h2>            
           </Col>
           <Col md={4} className="pb-4">
             <Person 

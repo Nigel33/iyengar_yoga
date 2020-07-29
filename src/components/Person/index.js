@@ -23,7 +23,7 @@ class Person extends Component {
       <>
         <div className="btn" onClick={this.handleShowModal}>
           <img className="m-auto d-block" style={{ width: '50%', borderRadius: '50%'  }} src={this.props.imgSrc}/>
-          <h4 className="text-light text-center pt-1">{this.props.detail}</h4>
+          <h4 className="text-dark text-center pt-1">{this.props.detail}</h4>
         </div>        
         <Modal 
           show={this.state.showModal}

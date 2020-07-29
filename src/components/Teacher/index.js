@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap'
 import { Calendar } from 'react-bootstrap-icons'
-import TeacherImg from '../Images/teacher.jpg'
+import Training from '../Images/training.jpg'
 import './styles.css'
 
 
@@ -11,30 +11,30 @@ const Teacher = () => {
       <Container className="pt-5 pb-5">
         <Row>
           <Col xs={12} className="pb-5">            
-            <h2 className="text-light text-center">Teacher Training & Assessment</h2>            
+            <h2 className="text-dark text-center">Teacher Training & Assessment</h2>            
           </Col>          
           <Col md={6}>
             <Accordion defaultActiveKey="0">
-              <Card style={{ backgroundColor: 'transparent' }}>
-                <Card.Header className="pl-0 pr-0" style={{ backgroundColor: 'transparent' }}>
-                  <Calendar size={30} color={'white'}/>
-                  <Accordion.Toggle className="ml-4" as={Button} variant="light" eventKey="0" style={{ backgroundColor: 'transparent', border: 'none', color: 'white' }}>
+              <Card style={{ backgroundColor: 'transparent', border: "none" }}>
+                <Card.Header className="pl-0 pr-0" style={{ backgroundColor: 'transparent', border: "none" }}>
+                  <Calendar size={30} color={'black'}/>
+                  <Accordion.Toggle className="ml-4" as={Button} variant="dark" eventKey="0" style={{ backgroundColor: 'transparent', border: 'none', color: 'black' }}>
                     April
                   </Accordion.Toggle>
-                  <Accordion.Toggle as={Button} variant="light" eventKey="1" style={{ backgroundColor: 'transparent', border: 'none', color: 'white' }}>
+                  <Accordion.Toggle as={Button} variant="dark" eventKey="1" style={{ backgroundColor: 'transparent', border: 'none', color: 'black' }}>
                     May
                   </Accordion.Toggle>
-                  <Accordion.Toggle as={Button} variant="light" eventKey="2" style={{ backgroundColor: 'transparent', border: 'none', color: 'white' }}>
+                  <Accordion.Toggle as={Button} variant="dark" eventKey="2" style={{ backgroundColor: 'transparent', border: 'none', color: 'black' }}>
                     June
                   </Accordion.Toggle>
-                  <Accordion.Toggle as={Button} variant="light" eventKey="3" style={{ backgroundColor: 'transparent', border: 'none', color: 'white' }}>
+                  <Accordion.Toggle as={Button} variant="dark" eventKey="3" style={{ backgroundColor: 'transparent', border: 'none', color: 'black' }}>
                     July
                   </Accordion.Toggle>
                 </Card.Header>
-                <Accordion.Collapse eventKey="0">
+                <Accordion.Collapse eventKey="0" style={{ border: "none" }}>
                   <Card.Body className="pl-0 pr-0"style={{backgroundColor: 'inherit'}}>
-                    <ul className="pl-0" style={{ color: 'white' }}>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                    <ul className="pl-0" style={{ color: 'black' }}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -54,7 +54,7 @@ const Teacher = () => {
                           <p>Lorem Ipsum dolor sit amet, consetetur</p>
                         </div>
                       </li>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -69,8 +69,8 @@ const Teacher = () => {
                 </Accordion.Collapse>
                 <Accordion.Collapse eventKey="1">                  
                   <Card.Body className="pl-0 pr-0"style={{backgroundColor: 'inherit'}}>
-                    <ul className="pl-0" style={{ color: 'white' }}>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                    <ul className="pl-0" style={{ color: 'black' }}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -90,7 +90,7 @@ const Teacher = () => {
                           <p>Lorem Ipsum dolor sit amet, consetetur</p>
                         </div>
                       </li>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -105,8 +105,8 @@ const Teacher = () => {
                 </Accordion.Collapse>
                 <Accordion.Collapse eventKey="2">
                 <Card.Body className="pl-0 pr-0"style={{backgroundColor: 'inherit'}}>
-                    <ul className="pl-0" style={{ color: 'white' }}>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                    <ul className="pl-0" style={{ color: 'black' }}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -126,7 +126,7 @@ const Teacher = () => {
                           <p>Lorem Ipsum dolor sit amet, consetetur</p>
                         </div>
                       </li>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -141,8 +141,8 @@ const Teacher = () => {
                 </Accordion.Collapse>
                 <Accordion.Collapse eventKey="3">
                 <Card.Body className="pl-0 pr-0"style={{backgroundColor: 'inherit'}}>
-                    <ul className="pl-0" style={{ color: 'white' }}>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                    <ul className="pl-0" style={{ color: 'black' }}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -162,7 +162,7 @@ const Teacher = () => {
                           <p>Lorem Ipsum dolor sit amet, consetetur</p>
                         </div>
                       </li>
-                      <li className="d-flex mb-1" style={{ borderBottom: '0.5px solid black'}}>
+                      <li className="d-flex mb-1">
                         <div className="w-40 mr-4">
                           <h4>11th -13th</h4>
                           <p>10am - 12pm</p>
@@ -177,10 +177,10 @@ const Teacher = () => {
                 </Accordion.Collapse>
               </Card>
             </Accordion>
-            <Button style={{ backgroundColor: 'inherit', border: '2px white solid', fontSize: '14px', fontWeight: 600}}>Book a Spot Now</Button>                                                    
+            <Button style={{ color: "black", backgroundColor: 'inherit', border: '2px black solid', fontSize: '14px', fontWeight: 600}}>Book a Spot Now</Button>                                                    
           </Col>
           <Col md={6}>
-            <img src={TeacherImg} style={{width: '100%'}}/>
+            <img src={Training} style={{width: '100%'}}/>
           </Col>
         </Row>
       </Container>

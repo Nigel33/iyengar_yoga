@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import yoga from '../Images/yoga-group.jpg'
+import congregation from '../Images/congregation.jpg'
 
 
 const Content = () => {
@@ -18,7 +18,7 @@ const Content = () => {
             </section>
           </Col>
           <Col md={6} style={{position: 'relative'}}>
-            <img src={yoga} style={{width: '100%', position: 'relative', bottom: '100px' }}/>
+            <img src={congregation} style={{width: '100%', position: 'relative', bottom: '100px' }}/>
           </Col>
         </Row>        
       </Container>
