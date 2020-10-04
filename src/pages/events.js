@@ -7,7 +7,7 @@ class Events extends Component {
   render = () =>
     <Layout>
       <Gallery />
-      <Calendar />
+      {/* <Calendar /> */}
     </Layout>
     
 }

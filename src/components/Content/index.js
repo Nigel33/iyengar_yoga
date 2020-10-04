@@ -33,7 +33,7 @@ const Content = () => {
       <div className="react-player-wrapper">
         <ReactPlayer
           className="react-player"
-          url="https://www.youtube.com/watch?v=J9MezxWaGdw"
+          url="https://www.youtube.com/watch?v=Hs4ZqJwR14o&t=25s"
           playing={ false }  
           height={ '100%' }
           width={ '100%' }            

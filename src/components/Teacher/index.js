@@ -11,9 +11,15 @@ const Teacher = () => {
       <Container className="pt-5 pb-5">
         <Row>
           <Col xs={12} className="pb-5">            
-            <h2 className="text-dark text-center">Teacher Training & Assessment</h2>            
+            <h2 className="text-light text-center mb-2">Teacher Training & Assessment</h2>            
+            <div className="text-center mt-4">
+              <Button
+                onClick={ () => { window.open('http://iyengaryogaasia.org/', '_blank') }} 
+                style={{ padding: "8px 10px", color: "#555555", backgroundColor: '#cec096', fontSize: '16px', fontWeight: 700, border: 'none', marginTop: '15px' }}>Find out more about Iyengar
+                Yoga Assessment here</Button>
+            </div>            
           </Col>          
-          <Col md={6}>
+          {/* <Col md={6}>
             <Accordion defaultActiveKey="0">
               <Card style={{ backgroundColor: 'transparent', border: "none" }}>
                 <Card.Header className="pl-0 pr-0" style={{ backgroundColor: 'transparent', border: "none" }}>
@@ -178,10 +184,10 @@ const Teacher = () => {
               </Card>
             </Accordion>
             <Button style={{ color: "black", backgroundColor: 'inherit', border: '2px black solid', fontSize: '14px', fontWeight: 600}}>Book a Spot Now</Button>                                                    
-          </Col>
-          <Col md={6}>
+          </Col> */}
+          {/* <Col md={6}>
             <img src={Training} style={{width: '100%'}}/>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

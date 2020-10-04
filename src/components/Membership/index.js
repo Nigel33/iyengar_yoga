@@ -1,86 +1,40 @@
 import React from 'react'
-import { Container, Row, Col, Accordion, Card, Button } from 'react-bootstrap'
+import { Container, Row, Col, Accordion, Card, Button, CardImg, CardBody, Image } from 'react-bootstrap'
 import { PeopleFill } from 'react-bootstrap-icons';
+import membershipPhoto from '../Images/membership.jpg'
 
 
 const Membership = () => {
   return (
-    <div style={{backgroundColor: "#eee"}}>
-      <Container className="pt-5 pb-5">
-        <Row>
-          <Col xs={12} className="pb-5">
-            <h6 className="text-dark text-right">Amazing Benefits</h6>
-            <h2 className="text-dark text-right">Join Us Now</h2>            
-          </Col>
-          <Col md={6}>
-            <Row>
-              <Col md={6} className="mb-4">   
-                <dl>
-                  <dt>
-                    <div className="text-center">
-                      <PeopleFill size={40} color={'red'}/>
-                    </div>                      
-                    <h4 className="pl-2 text-center">Magazine Subscription</h4>
-                  </dt>
-                  <dd>
-                    <p className="text-center">Unlimited Access to new content from our magazine</p>
-                  </dd>  
-                </dl>             
-              </Col>
-              <Col md={6} className="mb-4">   
-                <dl>
-                  <dt>
-                    <div className="text-center">
-                      <PeopleFill size={40} color={'red'}/>
-                    </div>                      
-                    <h4 className="pl-2 text-center">Magazine Subscription</h4>
-                  </dt>
-                  <dd>
-                    <p className="text-center">Unlimited Access to new content from our magazine</p>
-                  </dd>  
-                </dl>             
-              </Col>
-              <Col md={6} className="mb-4">   
-                <dl>
-                  <dt>
-                    <div className="text-center">
-                      <PeopleFill size={40} color={'red'}/>
-                    </div>                      
-                    <h4 className="pl-2 text-center">Magazine Subscription</h4>
-                  </dt>
-                  <dd>
-                    <p className="text-center">Unlimited Access to new content from our magazine</p>
-                  </dd>  
-                </dl>             
-              </Col>
-              <Col md={6} className="mb-4">   
-                <dl>
-                  <dt>
-                    <div className="text-center">
-                      <PeopleFill size={40} color={'red'}/>
-                    </div>                      
-                    <h4 className="pl-2 text-center">Magazine Subscription</h4>
-                  </dt>
-                  <dd>
-                    <p className="text-center">Unlimited Access to new content from our magazine</p>
-                  </dd>  
-                </dl>             
-              </Col>
-            </Row>  
-          </Col>
-          <Col md={6}>          
-            <Accordion style={{borderBottom: '2px solid red' }}>
-              <Card>
-                <Card.Header className="d-flex align-items-center" style={{backgroundColor: "#E4D8B4"}}>  
-                  <PeopleFill size={28}/>
-                  <h4 className="pl-2">Annual Fee</h4>
-                </Card.Header>                
-                <Card.Body>
-                  <h5>RM 100</h5>
-                </Card.Body>            
-              </Card>              
-            </Accordion>            
-          </Col>                
+    <div>
+      <Container fluid> 
+        <Row>          
+          <Col md={12} className="pb-5 pt-5">
+            <h6 className="text-dark text-center">Amazing Benefits</h6>
+            <h2 className="text-dark text-center">Join Us Now</h2>            
+          </Col>   
+          <Col md={ 12 }>
+            <Card style={{ width: '22rem' }} className="card mx-auto">
+              <CardImg top width="20%" src={ membershipPhoto } alt="Card image cap" />
+              <Card.Body className="text-center">
+                <h5>Annual fee</h5>
+                <p>RM 100</p>
+                <div className="d-flex justify-content-between mb-4">
+                  <Button
+                    onClick={ () => { window.open('https://www.jotform.com/build/914', '_blank') }} 
+                    style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>New membership</Button>
+                  <Button
+                    onClick={ () => { window.open('https://www.jotform.com/build/200', '_blank') }} 
+                    style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>Renew membership</Button>
+                </div>                
+                <div>
+                  <h5>Magazine subscription</h5>
+                  <p>Unlimited access to new content from our magazine</p>
+                  <a href="https://www.jotform.com/build/923389637" target="_blank">Subscribe</a>
+                </div>
+              </Card.Body>     
+            </Card>  
+          </Col>               
         </Row>        
       </Container>
     </div>

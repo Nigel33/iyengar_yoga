@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import yoga from '../Images/bks_background.jpg'
+import yoga from '../Images/rimyi_img.jpg'
 
 
 const Content = () => {

@@ -7,7 +7,7 @@ import Person from '../Person'
 
 const Committee = () => {
   return (
-    <div className="committee-background">
+    <div>
       <Container className="pt-5 pb-5">
         <Row>
           <Col xs={12} className="pb-5">

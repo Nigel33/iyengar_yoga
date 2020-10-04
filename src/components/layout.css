@@ -9,4 +9,8 @@ html {
   color: white;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 

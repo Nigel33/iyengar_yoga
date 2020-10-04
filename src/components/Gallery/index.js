@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
-import yoga from '../Images/bks_background.jpg'
+import pune  from '../Images/pune.jpg'
+import pune_2 from '../Images/pune_2.jpg'
 import hero from '../Images/hero-lg.jpg'
 import group from '../Images/yoga-group.jpg'
 
@@ -12,7 +13,13 @@ const Gallery = () => {
           <Col xs={12}>
             <h2 className="w-100 text-center mb-3">Gallery</h2>            
           </Col>
-          <Col xs={12}>              
+          <Col md={6}>  
+            <img src={pune} className="w-100"/>          
+          </Col>
+          <Col md={6}>  
+            <img src={pune_2} className="w-100"/>          
+          </Col>
+          {/* <Col xs={12}>              
             <Carousel style={{ width: '800px', height: '400px', margin: 'auto' }}>
               <Carousel.Item>
                 <img                  
@@ -49,7 +56,7 @@ const Gallery = () => {
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>  
-          </Col>
+          </Col> */}
         </Row>        
       </Container>
     </div>
