@@ -8,22 +8,53 @@ import Img from 'gatsby-image'
 import { useStaticQuery, graphql } from "gatsby"
 
 export default () => {
-  const img_1 = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
   query{
-    file(
-      relativePath: { eq: "garland.jpg"}      
-    ) {
-      childImageSharp {
-        fluid(maxWidth: 1200) {
-          base64
-          aspectRatio
-          src
-          srcSet
-          sizes
+    image1: 
+      file(
+        relativePath: { eq: "garland.jpg"}      
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            base64
+            aspectRatio
+            src
+            srcSet
+            sizes
+          }
         }
-      }
-    }
-  }
+      }    
+    image2: 
+      file(
+        relativePath: { eq: "gurujiFamily.jpg"}      
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            base64
+            aspectRatio
+            src
+            srcSet
+            sizes
+          }
+        }
+      }    
+
+      image3: 
+      file(
+        relativePath: { eq: "newGeneration.jpg"}      
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            base64
+            aspectRatio
+            src
+            srcSet
+            sizes
+          }
+        }
+      }    
+
+    } 
     `)
     
     return (
@@ -38,15 +69,18 @@ export default () => {
       //   </section>
       // </div> 
       <div className="hero-section">
-        <Carousel style={{ width: '100%', height: '700px', margin: 'auto' }}>
-          <Carousel.Item>
-            <Img fluid={img_1.file.childImageSharp.fluid}
-              alt="test" />
-            {/* <img                  
-              src={garland}
-              alt="First slide"
-              style={{ width: '100%', height: '700px', objectFit: 'cover' }}                  
-            />           */}
+        <Carousel style={{ width: '100%', margin: 'auto' }}>
+          <Carousel.Item>            
+            <Img fluid={data.image1.childImageSharp.fluid}
+              alt="test" />               
+          </Carousel.Item>     
+          <Carousel.Item>            
+            <Img fluid={data.image2.childImageSharp.fluid}
+              alt="test" />               
+          </Carousel.Item>   
+          <Carousel.Item>            
+            <Img fluid={data.image3.childImageSharp.fluid}
+              alt="test" />               
           </Carousel.Item>         
           {/* <Carousel.Item>
             <img                  
