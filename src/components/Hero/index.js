@@ -26,7 +26,7 @@ const Hero = () => {
             style={{ width: '100%', height: '700px', objectFit: 'cover' }}                  
           />          
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img                  
             src={family}
             alt="2nd slide" 
@@ -39,7 +39,7 @@ const Hero = () => {
             alt="Third slide"
             style={{ width: '100%', height: '700px', objectFit: 'cover' }}                   
           />          
-        </Carousel.Item> 
+        </Carousel.Item>  */}
       </Carousel>
     </div>
   );   
