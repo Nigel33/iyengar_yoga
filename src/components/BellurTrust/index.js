@@ -11,8 +11,20 @@ const Content = () => {
           <Col md={6}>
             <h2>Bellur Trust</h2>
             <section>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-              <p>Lorefffdfdfm ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p>
+                Bellur Krishnamachar & Seshamma Smaraka Niddhi Trust (BKSSNT or also known as the
+                Bellur Trust) was formed with a vision to improve the living standards of Guruji’s ancestral
+                village of Bellur in the Kolar district of Karnataka, including the children of nearby villages.
+              </p>
+              <p>
+                Through the Bellur Trust which Guruji established led to a transformation of the village. He
+                built a hospital, India's first temple dedicated to Patanjali, a free school that supplies
+                uniforms, books, and a hot lunch for the children of Bellur and its surrounding villages, a
+                secondary school, and a college.
+              </p>
+              <p>
+                To know more, click <a href="http://belluriyengaryogacenter.com/" target="_blank">here</a>
+              </p>
             </section>
           </Col>
           <Col md={6}>  
