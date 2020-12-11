@@ -15,7 +15,7 @@ export default () => {
         relativePath: { eq: "garland.jpg"}      
       ) {
         childImageSharp {
-          fluid(maxWidth: 1200) {
+          fluid(maxWidth: 600) {
             base64
             aspectRatio
             src
@@ -29,7 +29,7 @@ export default () => {
         relativePath: { eq: "gurujiFamily.jpg"}      
       ) {
         childImageSharp {
-          fluid(maxWidth: 1200) {
+          fluid(maxWidth: 600) {
             base64
             aspectRatio
             src
@@ -44,7 +44,7 @@ export default () => {
         relativePath: { eq: "newGeneration.jpg"}      
       ) {
         childImageSharp {
-          fluid(maxWidth: 1200) {
+          fluid(maxWidth: 600) {
             base64
             aspectRatio
             src

@@ -12,10 +12,10 @@ class Person extends Component {
   render = () => {
     return (
       <div>
-        <Card className="card">
+        <Card className="card mx-3">
           <CardImg top height="auto" width="100%" src={ this.props.imgSrc } alt="Card image cap" />
           <div style={{ backgroundColor: "#555555" }}>
-            <h4 className="text-light text-center pt-2">{this.props.detail}</h4>
+            <p className="text-light text-center pt-2 font-weight-bold">{this.props.detail}</p>
           </div>          
         </Card>
       </div>         
