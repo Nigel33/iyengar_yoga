@@ -1,7 +1,15 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import "./styles.css"
-import alice from '../Images/alice.jpg'
+import nanda from '../Images/nanda.jpg'
+import angel from '../Images/angel.jpg'
+import maya from '../Images/maya.jpg'
+import nicky from '../Images/nicky.jpg'
+import prema from '../Images/prema.jpg'
+import sia from '../Images/sia.jpg'
+import sinyue from '../Images/sinyue.jpg'
+import veun from '../Images/veun.jpg'
+import yvonne from '../Images/yvonne.jpg'
 import Person from '../Person'
 
 
@@ -13,37 +21,52 @@ const Committee = () => {
           <Col xs={12} className="pb-5">
             <h2 className="text-dark text-center">Committee</h2>            
           </Col>
-          <Col md={4} className="pb-4">
+          <Col md={3} className="pb-4">
             <Person 
-              imgSrc={alice}
+              imgSrc={nanda}
               detail={'Alice, Founder'}/>            
           </Col>
-          <Col md={4} className="pb-4">
+          <Col md={3} className="pb-4">
             <Person 
-              imgSrc={alice}
+              imgSrc={angel}
               detail={'Alice, Founder'}/>       
           </Col>
-          <Col md={4} className="pb-4">
+          <Col md={3} className="pb-4">
             <Person 
-              imgSrc={alice}
+              imgSrc={maya}
               detail={'Alice, Founder'}/>       
           </Col>
-          <Col md={4} className="pb-4">
+          <Col md={3} className="pb-4">
             <Person 
-              imgSrc={alice}
+              imgSrc={nicky}
               detail={'Alice, Founder'}/>       
           </Col>
-          <Col md={4} className="pb-4">
+          <Col md={3} className="pb-4">
             <Person 
-              imgSrc={alice}
+              imgSrc={prema}
               detail={'Alice, Founder'}/>       
           </Col>
-          <Col md={4} className="pb-4">
+          <Col md={3} className="pb-4">
             <Person 
-              imgSrc={alice}
+              imgSrc={sia}
               detail={'Alice, Founder'}/>       
-          </Col>        
-        </Row>        
+          </Col>    
+          <Col md={3} className="pb-4">
+            <Person 
+              imgSrc={sinyue}
+              detail={'Alice, Founder'}/>       
+          </Col>     
+          <Col md={3} className="pb-4">
+            <Person 
+              imgSrc={veun}
+              detail={'Alice, Founder'}/>       
+          </Col>      
+          <Col md={3} className="pb-4">
+            <Person 
+              imgSrc={yvonne}
+              detail={'Alice, Founder'}/>       
+          </Col>   
+        </Row>                                             
       </Container>
     </div>
   )

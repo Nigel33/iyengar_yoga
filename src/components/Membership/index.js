@@ -6,7 +6,7 @@ import membershipPhoto from '../Images/membership.jpg'
 
 const Membership = () => {
   return (
-    <div>
+    <div className="mb-5">
       <Container fluid> 
         <Row>          
           <Col md={12} className="pb-5 pt-5">

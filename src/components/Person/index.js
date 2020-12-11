@@ -13,7 +13,7 @@ class Person extends Component {
     return (
       <div>
         <Card className="card">
-          <CardImg top width="100%" src={ this.props.imgSrc } alt="Card image cap" />
+          <CardImg top height="auto" width="100%" src={ this.props.imgSrc } alt="Card image cap" />
           <div style={{ backgroundColor: "#555555" }}>
             <h4 className="text-light text-center pt-2">{this.props.detail}</h4>
           </div>          
