@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Header siteTitle="PIYM" />
       <div>
         <main>{children}</main>
-        <footer className="d-flex justify-content-end" style={{height: '50px', color: 'white', fontSize: '10px', backgroundColor: 'black'}}>          <div>
+        <footer className="d-flex justify-content-end" style={{height: '50px', color: 'white', fontSize: '10px', backgroundColor: '#32a1ce'}}>          <div>
             © {new Date().getFullYear()}, Designed by
             {` `}
             <a href="https://nigelhing">Nigel Hing</a>

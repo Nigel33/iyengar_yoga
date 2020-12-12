@@ -5,7 +5,7 @@ import yoga from '../Images/rimyi_img.jpg'
 
 const Content = () => {
   return (
-    <div className="pb-5" style={{backgroundColor: "black"}}>
+    <div className="pb-5" style={{backgroundColor: "#32a1ce"}}>
       <Container className="pt-5">
         <Row>    
           <Col md={6}>  

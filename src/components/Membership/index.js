@@ -21,6 +21,7 @@ const Membership = () => {
                 <p>RM 100</p>
                 <div className="d-flex justify-content-between mb-4">
                   <Button
+                    className="mr-3"
                     onClick={ () => { window.open('https://www.jotform.com/build/914', '_blank') }} 
                     style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>New membership</Button>
                   <Button

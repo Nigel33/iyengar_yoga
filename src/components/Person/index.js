@@ -14,8 +14,8 @@ class Person extends Component {
       <div>
         <Card className="card mx-3">
           <CardImg top height="auto" width="100%" src={ this.props.imgSrc } alt="Card image cap" />
-          <div style={{ backgroundColor: "#555555" }}>
-            <p className="text-light text-center pt-2 font-weight-bold">{this.props.detail}</p>
+          <div style={{ backgroundColor: "#32a1ce" }}>
+            <p className="text-light text-center pt-2 pb-2 font-weight-bold" style={{ fpntSize: '16px' }}>{this.props.detail}</p>
           </div>          
         </Card>
       </div>         
