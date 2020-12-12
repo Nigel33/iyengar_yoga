@@ -171,7 +171,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Iyengar yoga studio Langkap', 
+      name: 'Iyengar Yoga Studio Langkap', 
       address: '15, Jalan Besar ',
       zip: '36700',      
       city: 'Langkap',

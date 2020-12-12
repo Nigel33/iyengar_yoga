@@ -6,6 +6,7 @@ import ModalButton from '../ModalButton'
 import styles from './styles.css'
 import Studio from '../Studio'
 import { Search } from 'react-bootstrap-icons';
+import _ from 'lodash'
 
 import studioData from './studioData'
 
@@ -13,17 +14,48 @@ class FindTeacher extends Component {
   state = {
     studios: studioData,
     checkboxes: {
-      kualaLumpur: false,
+      kualaLumpur: true,
       selangor: true,
       perak: true,
       sarawak: true,
-      johorBaru: true,
+      johor: true,
     }
   }
 
-  toggleCheckbox = ( val ) => {
-    console.log( val.target.checked )
+  toggleCheckbox = ( val, key ) => {    
+    let tmp = _.cloneDeep( this.state.checkboxes )
+    tmp[ key ] = val
+    this.setState({ checkboxes: tmp }, () => {
+      this.toggleVisibility( this.state.studios, tmp)
+    })    
   }
+
+  toggleVisibility = ( studios, states) => {    
+    var tmp = []
+    var res = []
+    for( var key in states ) {
+      const visible = states[key]
+      
+      tmp = studios.filter(studio => _.camelCase( studio.state ) === key).map( x => {
+        return (
+          { ...x, visible: visible}
+        )
+      })       
+      
+      tmp.forEach( x => res.push(x))
+    }        
+    
+    this.setState({ studios: res })
+  } 
+
+  reset = () => {   
+    let tmp = _.cloneDeep( this.state.checkboxes )    
+    let res =_.mapValues(tmp, () => true);  
+    this.setState({ checkboxes: res }, () => {
+      this.toggleVisibility( this.state.studios, res )    
+    })      
+  }
+
   render() {
     return (
       <div>              
@@ -49,7 +81,7 @@ class FindTeacher extends Component {
                   <InputGroup>
                     <Form.Check 
                       checked={ this.state.checkboxes.kualaLumpur }
-                      onChange={ e => this.toggleCheckbox( e.target.checked ) }
+                      onChange={ e => this.toggleCheckbox( e.target.checked, 'kualaLumpur' ) }
                       type="checkbox"                  
                       label="Kuala Lumpur"
                     />
@@ -57,6 +89,7 @@ class FindTeacher extends Component {
                   <InputGroup>
                     <Form.Check 
                       checked={ this.state.checkboxes.selangor }
+                      onChange={ e => this.toggleCheckbox( e.target.checked, 'selangor' ) }
                       type="checkbox"                  
                       label="Selangor"
                     />
@@ -64,6 +97,7 @@ class FindTeacher extends Component {
                   <InputGroup>
                     <Form.Check 
                       type="checkbox"      
+                      onChange={ e => this.toggleCheckbox( e.target.checked, 'perak' ) }
                       checked={ this.state.checkboxes.perak }            
                       label="Perak"
                     />
@@ -71,13 +105,15 @@ class FindTeacher extends Component {
                   <InputGroup>
                     <Form.Check 
                       type="checkbox"  
-                      checked={ this.state.checkboxes.johorBaru }                
-                      label="Johor Baru"
+                      onChange={ e => this.toggleCheckbox( e.target.checked, 'johor' ) }
+                      checked={ this.state.checkboxes.johor }                
+                      label="Johor"
                     />
                   </InputGroup> 
                   <InputGroup>
                     <Form.Check 
-                      type="checkbox"   
+                      type="checkbox"  
+                      onChange={ e => this.toggleCheckbox( e.target.checked, 'sarawak' ) } 
                       checked={ this.state.checkboxes.sarawak }               
                       label="Sarawak"
                     />
@@ -85,14 +121,14 @@ class FindTeacher extends Component {
                   <Button 
                     className="mt-2" 
                     style={{ padding: "8px 10px", color: "#555555", backgroundColor: '#cec096', fontSize: '16px', fontWeight: 700, border: 'none', marginTop: '15px' }} 
-                    onClick={() => { console.log('dsdds')}}>Reset</Button>            
+                    onClick={ this.reset }>Reset</Button>            
                 </Form>
                 <div className="pune-teachers my-4">
                   <h2 className="text-light text-center py-3 mb-4">Pune Teachers</h2> 
                   <p style={{ fontSize: '14px' }} className="text-light px-3 text-center">"Best experience ever I had when I spent time in the ashram" - John</p>           
                   <div className="text-center pb-4">
                     <Button
-                      onClick={ () => { window.open('http://iyengaryogaasia.org/', '_blank') }} 
+                      onClick={ () => { window.open('https://bksiyengar.com/modules/Teacher/teacher.asp', '_blank') }} 
                       style={{ padding: "8px 10px", color: "#555555", backgroundColor: '#cec096', fontSize: '16px', fontWeight: 700, border: 'none', marginTop: '15px' }}>Find Teachers</Button>
                   </div>          
                 </div>

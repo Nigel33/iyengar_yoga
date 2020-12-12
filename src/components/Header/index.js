@@ -18,7 +18,7 @@ export default function ButtonAppBar() {
             <Link className="mr-4 text-dark" to="/">PIYM</Link>
             <Link className="mr-4 text-dark" to="/page-2/">Iyengar Yoga</Link>
             <Link className="mr-4 text-dark" to="/page-3">Find Teachers</Link>
-            {/* <Link className="mr-4 text-dark" to="https://bksiyengar.com/modules/Teacher/teacher.asp" target="_blank">Find Teachers</Link> */}
+            {/* <Link className="mr-4 text-dark" to="https://bksiyengar.com/modules/Teacher/teacher.asp" target="_blank">Find Teachers2</Link>  */}
             <Link className="text-dark" to="/events/">Gallery & Events</Link>
             {/* <Nav.Link className="text-dark" href="#piym">PIYM</Nav.Link>
             <Nav.Link className="text-dark" href="#iyengar-yoga">Iyengar Yoga</Nav.Link>
