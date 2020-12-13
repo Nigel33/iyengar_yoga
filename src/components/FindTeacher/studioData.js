@@ -76,7 +76,7 @@ export default
       zip: '40170',      
       city: 'Setia Alam',
       state: 'Selangor',
-      email: 'lifecadio@gmail.com ',
+      email: 'siacs31@yahoo.com',
       contact: '013 287 0119',
       visible: true  
     },
