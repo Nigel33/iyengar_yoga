@@ -9,7 +9,8 @@ const Studio = ({
   city,
   state,
   email,
-  contact
+  contact,
+  teacher,
 }) => {
   return (
     <>      
@@ -17,7 +18,8 @@ const Studio = ({
         <Card.Body style={{ padding: '0'}}>
           <Row noGutters={ true } >
             <Col className="studio-background" style={{ padding: '1.25rem'}} md={ 7 }>  
-              <h4 className="text-light mt-2">{ name }</h4>              
+              <h4 className="text-light mt-2">{ name }</h4>   
+              <h5 className="text-light mt-1">{ teacher }</h5>           
             </Col>
             <Col md={ 5 } style={{ background: "#32a1ce", padding: '1.25rem' }} >
               <span><strong><EnvelopeFill color="white" /></strong></span>
