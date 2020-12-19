@@ -47,10 +47,10 @@ const Committee = () => {
           detail={'Nanda, Consultant'}/>  
         <Person 
           imgSrc={sia}
-          detail={'Sia, Chairperson'}/>   
+          detail={'Honan, President'}/>   
         <Person 
           imgSrc={sinyue}
-          detail={'Sin Yue, Vice Chairperson'}/>   
+          detail={'Sin Yue, Vice President'}/>   
         <Person 
           imgSrc={veun}
           detail={'Veun, Secretary'}/>    
@@ -62,14 +62,14 @@ const Committee = () => {
           detail={'Angel, Treasurer'}/>                
         <Person 
           imgSrc={maya}
-          detail={'Maya, Communications'}/>       
+          detail={'Maya, Committee Member'}/>       
                              
         <Person 
           imgSrc={prema}
-          detail={'Prema, Ethnic Assessment'}/>                       
+          detail={'Prema, Committee Member'}/>                       
         <Person 
           imgSrc={yvonne}
-          detail={'Yvonne, Marketing'}/>                          
+          detail={'Yvonne, Committee Member'}/>                          
       </Carousel>      
     </div>
   )
