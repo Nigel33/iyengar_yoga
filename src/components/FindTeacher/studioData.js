@@ -24,7 +24,7 @@ export default
     },
     { 
       name: 'Shradha Yoga', 
-      address: '5 Jalan 45/70A',
+      address: 'Desa Sri Hartamas',
       teacher: 'Paarul Metha',
       zip: '50480',      
       city: 'Desa Sri Hartamas',
@@ -58,8 +58,8 @@ export default
     { 
       name: 'TREYOGA', 
       teacher: 'Carol Ong',
-      address: 'D3A-9-G Dana 1 Commercial Centre, Jalan PJU1A/46, 47301 Petaling Jaya, Selangor',
-      zip: '59100',      
+      address: 'D3A-9-G Dana 1 Commercial Centre, Jalan PJU1A/46',
+      zip: '47301',      
       city: 'Petaling Jaya',
       state: 'Selangor',
       email: 'treyoga@gmail.com',
@@ -68,7 +68,7 @@ export default
     },    
     { 
       name: 'Shanthi Yoga Centre', 
-      teacher: 'Sumitra Sekaran',
+      teacher: 'Carol Lee',
       address: '19-2, Jalan Equine 1A, Taman Equine',
       zip: '43300',      
       city: 'Seri Kembangan',
@@ -146,9 +146,10 @@ export default
     { 
       name: 'Breazy Yoga', 
       teacher: 'Kazumi Fujimura',
-      address: '29A & B, Jalan Seri Baiduri 2, Taman Seri Baiduri, off Jalan Bandar Teknologi Kajang,',
+      address: '29A, Jalan Seri Baiduri1, Taman Seri Baiduri, Bandar Teknologi',
+      website: 'https://www.breazyyoga.com/',
       zip: '43500',      
-      city: 'Semenyih',
+      city: 'Kajang',
       state: 'Selangor',
       email: 'breazyyoga@yahoo.com',
       contact: '012 231 1482',
@@ -159,10 +160,10 @@ export default
       teacher: 'Mei Yan Wong',
       address: 'A-1-3, Block A, Pusat Komersial Parklane,7/26, Kelana Jaya',
       zip: '47301',      
-      city: 'Subang Jaya',
+      city: 'Kelana Jaya',
       state: 'Selangor',
-      email: 'yookchin61@gmail.com',
-      contact: '017 235 7733',
+      email: 'mywong83@hotmail.com',
+      contact: '012 278 3752',
       visible: true  
     },
     { 
@@ -177,7 +178,19 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Yoga House', 
+      teacher: 'Sumitra Sekaran',
+      address: '11, Jalan 16/5, Section 16',
+      zip: '46350',      
+      city: 'Petaling Jaya',
+      state: 'Selangor',
+      email: 'sumitra@yogahouse.com.my',
+      website: 'www.yogahouse.com.my',
+      contact: '017 265 7943',
+      visible: true  
+    },
+    { 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Carol Lee',
       address: '',
       zip: '43200',      
@@ -188,7 +201,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Lena Wong',
       address: '',
       zip: '42600',      
@@ -199,7 +212,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Melissa Chan',
       address: '',
       zip: '47100',      
@@ -210,7 +223,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Michael Peter s/o Andrew',
       address: '',
       zip: '43200',      
@@ -221,7 +234,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Natasya Chng',
       address: '',
       zip: '47600',      
@@ -232,7 +245,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Phaik Yoong, Christina Wong',
       address: '',
       zip: '47110',      
@@ -243,7 +256,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Premalatha Govindasamy',
       address: '',
       zip: '46400',      
@@ -254,7 +267,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Tara Wong Sie Yeun Kok',
       address: '',
       zip: '43000',      
@@ -265,18 +278,18 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Veun Chin',
       address: '',
       zip: '47100',      
       city: 'Puchong',
       state: 'Selangor',
       email: 'veun@yahoo.com',
-      contact: '019 353 6922',
+      contact: '',
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Yook Chin Yap',
       address: '',
       zip: '47610',      
@@ -309,7 +322,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Narenthran S.Virakannu',
       address: '',
       zip: '14000',      
@@ -331,7 +344,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Cheng Yee, Joreen Wong',
       address: '',
       zip: '81100',      
@@ -342,7 +355,7 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent', 
+      name: 'Independent Yoga Teacher', 
       teacher: 'Michaela Hasenauer',
       address: '',
       zip: '07000',      

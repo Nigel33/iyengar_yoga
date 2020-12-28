@@ -165,6 +165,7 @@ class FindTeacher extends Component {
                     <>                     
                       <Studio 
                         name={ x.name }
+                        website={ x.website }
                         teacher={ x.teacher }
                         address={ x.address }
                         zip={ x.zip }
@@ -188,6 +189,7 @@ class FindTeacher extends Component {
                       <Studio 
                         name={ x.name }
                         teacher={ x.teacher }
+                        website={ x.website }
                         address={ x.address }
                         zip={ x.zip }
                         city={ x.city }
@@ -210,6 +212,7 @@ class FindTeacher extends Component {
                       <Studio 
                         name={ x.name }
                         teacher={ x.teacher }
+                        website={ x.website }
                         address={ x.address }
                         zip={ x.zip }
                         city={ x.city }
@@ -232,6 +235,7 @@ class FindTeacher extends Component {
                       <Studio 
                         name={ x.name }
                         address={ x.address }
+                        website={ x.website }
                         teacher={ x.teacher }
                         zip={ x.zip }
                         city={ x.city }
@@ -254,6 +258,7 @@ class FindTeacher extends Component {
                       <Studio 
                         name={ x.name }
                         address={ x.address }
+                        website={ x.website }
                         teacher={ x.teacher }
                         zip={ x.zip }
                         city={ x.city }
@@ -275,6 +280,7 @@ class FindTeacher extends Component {
                     <>                     
                       <Studio 
                         name={ x.name }
+                        website={ x.website }
                         address={ x.address }
                         teacher={ x.teacher }
                         zip={ x.zip }

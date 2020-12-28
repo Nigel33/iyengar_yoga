@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Row, Col } from 'react-bootstrap'
 import './styles.css'
-import { EnvelopeFill, TelephoneFill } from 'react-bootstrap-icons';
+import { Globe, EnvelopeFill, TelephoneFill, Window } from 'react-bootstrap-icons';
 const Studio = ({
   name,
   address,
@@ -11,6 +11,7 @@ const Studio = ({
   email,
   contact,
   teacher,
+  website,
 }) => {
   return (
     <>      
@@ -27,6 +28,15 @@ const Studio = ({
               <p></p>
               <span className="mt-2"><strong><TelephoneFill color="white"/></strong></span>
               <span className="text-white"> { contact }</span>
+              {
+                website && (
+                  <>
+                    <p></p>
+                    <span><strong><Globe color="white" /></strong></span>
+                    <span className="text-white"><a style={{ color: 'white', textDecoration: 'none'}} href={ website } target="_blank"> Visit site</a></span>                    
+                  </>
+                )
+              }
             </Col>
             <Col md={ 12 } style={{ padding: '1.25rem' }}>
               <p><strong>Address</strong></p>

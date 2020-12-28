@@ -18,20 +18,22 @@ const Membership = () => {
               <CardImg top width="20%" src={ membershipPhoto } alt="Card image cap" />
               <Card.Body className="text-center">
                 <h5>Annual fee</h5>
-                <p>RM 100</p>
+                <p>RM 50</p>
                 <div className="d-flex justify-content-between mb-4">
                   <Button
                     className="mr-3"
                     onClick={ () => { window.open('https://www.jotform.com/build/914', '_blank') }} 
                     style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>New membership</Button>
                   <Button
-                    onClick={ () => { window.open('https://www.jotform.com/build/200', '_blank') }} 
+                    onClick={ () => { window.open('https://form.jotform.com/200291375259456', '_blank') }} 
                     style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>Renew membership</Button>
                 </div>                
                 <div>
                   <h5>Magazine subscription</h5>
                   <p>Unlimited access to new content from our magazine</p>
-                  <a href="https://www.jotform.com/build/923389637" target="_blank">Subscribe</a>
+                  <Button
+                    onClick={ () => { window.open('https://www.jotform.com/build/923389637', '_blank') }} 
+                    style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>Subscribe magazine</Button>                  
                 </div>
               </Card.Body>     
             </Card>  
