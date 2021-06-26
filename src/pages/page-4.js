@@ -30,7 +30,14 @@ const FourthPage = () => (
             </ListGroup.Item>
             <ListGroup.Item action  variant="warning"target="_blank" href={ news4}>
               Part 4
-            </ListGroup.Item>
+            </ListGroup.Item>            
+          </ListGroup>
+        </Col>
+        <Col md={12}>          
+          <h4 className="mb-3 mt-3">2020</h4>
+        </Col>
+        <Col md={6} sm={ 12 }>
+          <ListGroup>            
             <ListGroup.Item action variant="warning" target="_blank" href={ news5}>
               Part 5
             </ListGroup.Item>

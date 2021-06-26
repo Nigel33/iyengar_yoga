@@ -373,7 +373,7 @@ export default
       city: 'Kuching',
       state: 'Sarawak',
       email: 'tracyu33@gmail.com',
-      contact: '019 267 1431',
+      contact: '011 6315 4134',
       visible: true  
     },
     { 
