@@ -15,6 +15,8 @@ import sinyue from '../Images/sinyue.jpg'
 import veun from '../Images/veun.jpg'
 import yvonne from '../Images/yvonne.jpg'
 import Person from '../Person'
+import carol from '../Images/carol_50.jpg'
+import josephine from '../Images/josephine_50.jpg'
 
 const responsive = {
   superLargeDesktop: {
@@ -44,32 +46,25 @@ const Committee = () => {
       <Carousel responsive={responsive}>        
         <Person 
           imgSrc={nanda}
-          detail={'Nanda, Consultant'}/>  
-        <Person 
-          imgSrc={sia}
-          detail={'Honan, President'}/>   
+          detail={'Nanda, Consultant'}/>          
         <Person 
           imgSrc={sinyue}
-          detail={'Sin Yue, Vice President'}/>   
-        <Person 
-          imgSrc={veun}
-          detail={'Veun, Secretary'}/>    
-        <Person 
-          imgSrc={nicky}
-          detail={'Nicky, Vice Secretary'}/>                   
+          detail={'Sin Yue, President'}/>   
         <Person 
           imgSrc={angel}
-          detail={'Angel, Treasurer'}/>                
+          detail={'Angel, Vice President'}/>    
         <Person 
-          imgSrc={maya}
-          detail={'Maya, Committee Member'}/>       
-                             
+          imgSrc={veun}
+          detail={'Veun, Secretary'}/>              
+        <Person 
+          imgSrc={carol}
+          detail={'Carol, Treasurer'}/>                                                                         
         <Person 
           imgSrc={prema}
           detail={'Prema, Committee Member'}/>                       
         <Person 
-          imgSrc={yvonne}
-          detail={'Yvonne, Committee Member'}/>                          
+          imgSrc={josephine}
+          detail={'Josephine, Committee Member'}/>                          
       </Carousel>      
     </div>
   )
