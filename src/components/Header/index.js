@@ -16,9 +16,9 @@ export default function ButtonAppBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto mt-4 d-flex justify-content-around">
             <Link className="mr-4 text-dark" to="/">PIYM</Link>
-            <Link className="mr-4 text-dark" to="/page-2/">Iyengar Yoga</Link>
-            <Link className="mr-4 text-dark" to="/page-3">Find Teachers</Link>
-            <Link className="mr-4 text-dark" to="/page-4">Archive</Link>
+            <Link className="mr-4 text-dark" to="/iyengar-yoga/">Iyengar Yoga</Link>
+            <Link className="mr-4 text-dark" to="/find-teachers">Find Teachers</Link>
+            <Link className="mr-4 text-dark" to="/archive">Archive</Link>
             {/* <Link className="mr-4 text-dark" to="https://bksiyengar.com/modules/Teacher/teacher.asp" target="_blank">Find Teachers2</Link>  */}
             <Link className="text-dark" to="/events/">Gallery & Events</Link>
             {/* <Nav.Link className="text-dark" href="#piym">PIYM</Nav.Link>

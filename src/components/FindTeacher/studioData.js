@@ -113,7 +113,7 @@ export default
     { 
       name: 'Life Ca-Dio Yoga Studio', 
       teacher: 'Siok Han Liew',
-      address: '67-1,Jalan puteri 2/3, Bandar Puteri',
+      address: '67-1, Jalan puteri 2/3, Bandar Puteri',
       zip: '47100',      
       city: 'Puchong',
       state: 'Selangor',
@@ -285,7 +285,7 @@ export default
       city: 'Puchong',
       state: 'Selangor',
       email: 'veun@yahoo.com',
-      contact: '',
+      contact: '019 353 6922',
       visible: true  
     },
     { 

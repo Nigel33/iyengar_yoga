@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 import "./styles.css"
 import nanda from '../Images/nanda.jpg'
-import angel from '../Images/angel.jpg'
+import angel from '../Images/angel_new.jpg'
 import maya from '../Images/maya.jpg'
 import nicky from '../Images/nicky.jpg'
 import prema from '../Images/prema.jpg'
