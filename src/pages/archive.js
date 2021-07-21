@@ -7,6 +7,7 @@ import news2 from '../components/Files/news_2.pdf'
 import news3 from '../components/Files/news_3.pdf'
 import news4 from '../components/Files/news_4.pdf'
 import news5 from '../components/Files/news_5.pdf'
+import news6 from '../components/Files/news_6.pdf'
 
 
 const FourthPage = () => (
@@ -20,16 +21,16 @@ const FourthPage = () => (
         <Col md={6} sm={ 12 }>
           <ListGroup>
             <ListGroup.Item variant="warning" action target="_blank" href={ news1}>
-              Part 1
+              Volume 1
             </ListGroup.Item>
             <ListGroup.Item action  variant="warning"target="_blank" href={ news2}>
-              Part 2
+              Volume 2
             </ListGroup.Item>
             <ListGroup.Item action  variant="warning"target="_blank" href={ news3}>
-              Part 3
+              Volume 3
             </ListGroup.Item>
             <ListGroup.Item action  variant="warning"target="_blank" href={ news4}>
-              Part 4
+              Volume 4
             </ListGroup.Item>            
           </ListGroup>
         </Col>
@@ -39,7 +40,17 @@ const FourthPage = () => (
         <Col md={6} sm={ 12 }>
           <ListGroup>            
             <ListGroup.Item action variant="warning" target="_blank" href={ news5}>
-              Part 5
+              Volume 5
+            </ListGroup.Item>
+          </ListGroup>
+        </Col>
+        <Col md={12}>          
+          <h4 className="mb-3 mt-3">2021</h4>
+        </Col>
+        <Col md={6} sm={ 12 }>
+          <ListGroup>            
+            <ListGroup.Item action variant="warning" target="_blank" href={ news6 }>
+              Volume 6
             </ListGroup.Item>
           </ListGroup>
         </Col>

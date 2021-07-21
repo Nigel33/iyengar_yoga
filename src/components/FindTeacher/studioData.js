@@ -189,17 +189,18 @@ export default
       contact: '017 265 7943',
       visible: true  
     },
-    { 
-      name: 'Independent Yoga Teacher', 
-      teacher: 'Carol Lee',
-      address: '',
-      zip: '43200',      
-      city: 'Kajang',
-      state: 'Selangor',
-      email: 'leecarol0708@gmail.com',
-      contact: '012 372 5177',
-      visible: true  
-    },
+    
+    // { 
+    //   name: 'Independent Yoga Teacher', 
+    //   teacher: 'Carol Lee',
+    //   address: '',
+    //   zip: '43200',      
+    //   city: 'Kajang',
+    //   state: 'Selangor',
+    //   email: 'leecarol0708@gmail.com',
+    //   contact: '012 372 5177',
+    //   visible: true  
+    // },
     { 
       name: 'Independent Yoga Teacher', 
       teacher: 'Lena Wong',
@@ -275,6 +276,28 @@ export default
       state: 'Selangor',
       email: 'wongsieyeun@gmail.com',
       contact: '012 971 7105',
+      visible: true  
+    },
+    { 
+      name: 'Independent Yoga Teacher', 
+      teacher: 'Cho Jacqueline',
+      address: '',
+      zip: '',      
+      city: '',
+      state: '',
+      email: 'jaccho@gmail.com',
+      contact: '012 235 2632',
+      visible: true  
+    },
+    { 
+      name: 'Independent Yoga Teacher', 
+      teacher: 'Jayakumaran Annasamy',
+      address: '',
+      zip: '',      
+      city: '',
+      state: '',
+      email: 'jaya.kumaran77@gmail.com',
+      contact: '012 557 7782',
       visible: true  
     },
     { 
