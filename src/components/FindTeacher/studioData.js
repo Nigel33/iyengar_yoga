@@ -284,7 +284,7 @@ export default
       address: '',
       zip: '',      
       city: '',
-      state: '',
+      state: 'Selangor',
       email: 'jaccho@gmail.com',
       contact: '012 235 2632',
       visible: true  
@@ -295,7 +295,7 @@ export default
       address: '',
       zip: '',      
       city: '',
-      state: '',
+      state: 'Selangor',
       email: 'jaya.kumaran77@gmail.com',
       contact: '012 557 7782',
       visible: true  
