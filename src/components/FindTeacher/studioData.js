@@ -295,7 +295,7 @@ export default
       address: '22 Jalan Tan Jit Seng',
       zip: '11200',      
       city: 'Tanjung Bungah',
-      state: 'Penang',
+      state: 'Pulau Pinang',
       email: 'jaya.kumaran77@gmail.com',
       contact: '012 557 7782',
       visible: true  
