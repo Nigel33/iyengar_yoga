@@ -290,12 +290,12 @@ export default
       visible: true  
     },
     { 
-      name: 'Independent Yoga Teacher', 
+      name: 'Kaashi Yoga Kendra', 
       teacher: 'Jayakumaran Annasamy',
-      address: '',
-      zip: '',      
-      city: '',
-      state: 'Selangor',
+      address: '22 Jalan Tan Jit Seng',
+      zip: '11200',      
+      city: 'Tanjung Bungah',
+      state: 'Penang',
       email: 'jaya.kumaran77@gmail.com',
       contact: '012 557 7782',
       visible: true  
