@@ -168,13 +168,13 @@ export default
     },
     { 
       name: 'Iyengar Yoga Studio Klang', 
-      teacher: 'Seong Ngoh, Emily Ang',
-      address: 'B4-12-2, Jalan Batu Nilam 3, Bandar Bukit Tinggi',
+      teacher: 'Emily Ang',
+      address: 'No 7, Lorong Seri Banang 15a, Taman Sri Andalas',
       zip: '41200',      
       city: 'Klang',
       state: 'Selangor',
       email: 'email2asn@gmail.com',
-      contact: '017 265 7943',
+      contact: '013 652 7272',
       visible: true  
     },
     { 
