@@ -44,17 +44,17 @@ export default
       contact: '012 372 5155',
       visible: true  
     },
-    { 
-      name: 'Yogi Step', 
-      address: '24-1, Villa Saujanis, Jln 3/38a, Tmn Sri Sinar',
-      teacher: 'Yap Sze Yeng',
-      zip: '51200',      
-      city: 'Segambut',
-      state: 'Kuala Lumpur',
-      email: 'yogistep80@gmail.com',
-      contact: '012 688 5925',
-      visible: true  
-    },    
+    // { 
+    //   name: 'Yogi Step', 
+    //   address: '24-1, Villa Saujanis, Jln 3/38a, Tmn Sri Sinar',
+    //   teacher: 'Yap Sze Yeng',
+    //   zip: '51200',      
+    //   city: 'Segambut',
+    //   state: 'Kuala Lumpur',
+    //   email: 'yogistep80@gmail.com',
+    //   contact: '012 688 5925',
+    //   visible: true  
+    // },    
     { 
       name: 'TREYOGA', 
       teacher: 'Carol Ong',
@@ -88,28 +88,28 @@ export default
       contact: '013 287 0119',
       visible: true  
     },
-    { 
-      name: 'Home Studio', 
-      teacher: 'Ean See Ng',
-      address: '3, Jln USJ 9/3D, UEP Subang Jaya',
-      zip: '47620',      
-      city: 'Subang Jaya',
-      state: 'Selangor',
-      email: 'ngeansee@yahoo.com',
-      contact: '012 231 1482',
-      visible: true  
-    },
-    { 
-      name: 'Tapas Iyengar Yoga Studio', 
-      teacher: 'Yoke Ngoh Soon (Mei Soong)',
-      address: '2-33, Jalan Puteri 4/6, Bandar Puteri Puchong',
-      zip: '47100',      
-      city: 'Puchong',
-      state: 'Selangor',
-      email: 'tapasiyengarstudio@gmail.com',
-      contact: '010 453 0282',
-      visible: true  
-    },
+    // { 
+    //   name: 'Home Studio', 
+    //   teacher: 'Ean See Ng',
+    //   address: '3, Jln USJ 9/3D, UEP Subang Jaya',
+    //   zip: '47620',      
+    //   city: 'Subang Jaya',
+    //   state: 'Selangor',
+    //   email: 'ngeansee@yahoo.com',
+    //   contact: '012 231 1482',
+    //   visible: true  
+    // },
+    // { 
+    //   name: 'Tapas Iyengar Yoga Studio', 
+    //   teacher: 'Yoke Ngoh Soon (Mei Soong)',
+    //   address: '2-33, Jalan Puteri 4/6, Bandar Puteri Puchong',
+    //   zip: '47100',      
+    //   city: 'Puchong',
+    //   state: 'Selangor',
+    //   email: 'tapasiyengarstudio@gmail.com',
+    //   contact: '010 453 0282',
+    //   visible: true  
+    // },
     { 
       name: 'Life Ca-Dio Yoga Studio', 
       teacher: 'Siok Han Liew',
@@ -212,28 +212,28 @@ export default
       contact: '012 931 6633',
       visible: true  
     },
-    { 
-      name: 'Independent Yoga Teacher', 
-      teacher: 'Melissa Chan',
-      address: '',
-      zip: '47100',      
-      city: 'Puchong',
-      state: 'Selangor',
-      email: 'melisachan21@gmail.com',
-      contact: '016 273 6726',
-      visible: true  
-    },
-    { 
-      name: 'Independent Yoga Teacher', 
-      teacher: 'Michael Peter s/o Andrew',
-      address: '',
-      zip: '43200',      
-      city: 'Cheras',
-      state: 'Selangor',
-      email: 'michael_peter5@hotmail.com',
-      contact: '012 386 7766',
-      visible: true  
-    },
+    // { 
+    //   name: 'Independent Yoga Teacher', 
+    //   teacher: 'Melissa Chan',
+    //   address: '',
+    //   zip: '47100',      
+    //   city: 'Puchong',
+    //   state: 'Selangor',
+    //   email: 'melisachan21@gmail.com',
+    //   contact: '016 273 6726',
+    //   visible: true  
+    // },
+    // { 
+    //   name: 'Independent Yoga Teacher', 
+    //   teacher: 'Michael Peter s/o Andrew',
+    //   address: '',
+    //   zip: '43200',      
+    //   city: 'Cheras',
+    //   state: 'Selangor',
+    //   email: 'michael_peter5@hotmail.com',
+    //   contact: '012 386 7766',
+    //   visible: true  
+    // },
     { 
       name: 'Independent Yoga Teacher', 
       teacher: 'Natasya Chng',
@@ -245,17 +245,17 @@ export default
       contact: '016 477 6867',
       visible: true  
     },
-    { 
-      name: 'Independent Yoga Teacher', 
-      teacher: 'Phaik Yoong, Christina Wong',
-      address: '',
-      zip: '47110',      
-      city: 'Puchong',
-      state: 'Selangor',
-      email: 'cpywongster@gmail.com',
-      contact: '019 388 0712',
-      visible: true  
-    },
+    // { 
+    //   name: 'Independent Yoga Teacher', 
+    //   teacher: 'Phaik Yoong, Christina Wong',
+    //   address: '',
+    //   zip: '47110',      
+    //   city: 'Puchong',
+    //   state: 'Selangor',
+    //   email: 'cpywongster@gmail.com',
+    //   contact: '019 388 0712',
+    //   visible: true  
+    // },
     { 
       name: 'Independent Yoga Teacher', 
       teacher: 'Premalatha Govindasamy',
@@ -267,17 +267,17 @@ export default
       contact: '017 612 5501',
       visible: true  
     },
-    { 
-      name: 'Independent Yoga Teacher', 
-      teacher: 'Tara Wong Sie Yeun Kok',
-      address: '',
-      zip: '43000',      
-      city: 'Taman Bukit Mewah',
-      state: 'Selangor',
-      email: 'wongsieyeun@gmail.com',
-      contact: '012 971 7105',
-      visible: true  
-    },
+    // { 
+    //   name: 'Independent Yoga Teacher', 
+    //   teacher: 'Tara Wong Sie Yeun Kok',
+    //   address: '',
+    //   zip: '43000',      
+    //   city: 'Taman Bukit Mewah',
+    //   state: 'Selangor',
+    //   email: 'wongsieyeun@gmail.com',
+    //   contact: '012 971 7105',
+    //   visible: true  
+    // },
     { 
       name: 'Independent Yoga Teacher', 
       teacher: 'Cho Jacqueline',
@@ -388,26 +388,26 @@ export default
       contact: '019 367 7024',
       visible: true  
     },
-    { 
-      name: 'Yoga Home', 
-      teacher: 'Soh Kheng, Tracy Yu',
-      address: 'No.696, Lorong 26, Tabuan Tranquality',
-      zip: '93350',      
-      city: 'Kuching',
-      state: 'Sarawak',
-      email: 'tracyu33@gmail.com',
-      contact: '011 6315 4134',
-      visible: true  
-    },
-    { 
-      name: 'Mahat Yoga', 
-      teacher: 'Kian Voon, Valerie Chai',
-      address: '1st Floor, 605, Lot 1516, Jalan Penrissen, Kota Sentosa',
-      zip: '93250',      
-      city: 'Kuching',
-      state: 'Sarawak',
-      email: '1108ckv@gmail.com',
-      contact: '012 895 8998',
-      visible: true  
-    },
+    // { 
+    //   name: 'Yoga Home', 
+    //   teacher: 'Soh Kheng, Tracy Yu',
+    //   address: 'No.696, Lorong 26, Tabuan Tranquality',
+    //   zip: '93350',      
+    //   city: 'Kuching',
+    //   state: 'Sarawak',
+    //   email: 'tracyu33@gmail.com',
+    //   contact: '011 6315 4134',
+    //   visible: true  
+    // },
+    // { 
+    //   name: 'Mahat Yoga', 
+    //   teacher: 'Kian Voon, Valerie Chai',
+    //   address: '1st Floor, 605, Lot 1516, Jalan Penrissen, Kota Sentosa',
+    //   zip: '93250',      
+    //   city: 'Kuching',
+    //   state: 'Sarawak',
+    //   email: '1108ckv@gmail.com',
+    //   contact: '012 895 8998',
+    //   visible: true  
+    // },
   ]
