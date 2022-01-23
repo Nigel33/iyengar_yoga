@@ -66,7 +66,7 @@ const FourthPage = () => (
         <Col md={12}>          
           <h4 className="mb-3 mt-3">2022</h4>
         </Col>
-        <Col md={6} sm={ 12 }>
+        <Col className="mb-5" md={6} sm={ 12 }>
           <ListGroup>            
             <ListGroup.Item action variant="warning" target="_blank" href={ news9 }>
               Volume 9
