@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "gatsby"
 import { Container, Row, Col, Button, Form, InputGroup } from 'react-bootstrap'
-import person from '../Images/alice.jpg'
+// import person from '../Images/alice.jpg'
 import ModalButton from '../ModalButton'
 import styles from './styles.css'
 import Studio from '../Studio'

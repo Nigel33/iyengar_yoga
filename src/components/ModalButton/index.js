@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, Button, Modal } from 'react-bootstrap'
-import alice from '../Images/alice.jpg'
+// import alice from '../Images/alice.jpg'
 
 
 
@@ -27,8 +27,8 @@ class Dialog extends Component {
         <Modal show={this.state.showModal} onHide={this.handleClose} animation={true}>          
           <Modal.Body className="d-flex">
             <div className="mr-2">
-              <img src={alice} 
-                style={{ width: '200px', height: '200px', objectFit: 'cover'}}/>  
+              {/* <img src={alice}  */}
+                {/* style={{ width: '200px', height: '200px', objectFit: 'cover'}}/>   */}
             </div>
             <div class="w-50">
               <h4>Alice</h4>
