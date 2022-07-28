@@ -25,7 +25,7 @@ const Membership = () => {
                     onClick={ () => { window.open('https://form.jotform.me/91462501919458', '_blank') }} 
                     style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>New membership</Button>
                   <Button
-                    onClick={ () => { window.open('https://form.jotform.com/200291375259456', '_blank') }} 
+                    onClick={ () => { window.open('https://form.jotform.com/222021178919455', '_blank') }} 
                     style={{ padding: "5px 8px", color: "#555555", backgroundColor: '#cec096', fontSize: '14px', fontWeight: 700, border: 'none', marginTop: '15px' }}>Renew membership</Button>
                 </div>                
                 <div>
