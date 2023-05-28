@@ -13,10 +13,10 @@ const Teacher = () => {
           <Col xs={12} className="pb-5">            
             <h2 className="text-light text-center mb-2">Teacher Training & Assessment</h2>            
             <div className="text-center mt-4">
-              <Button
+              {/* <Button
                 onClick={ () => { window.open("http://iyengaryogaasia.org", '_blank') }} 
                 style={{ padding: "8px 10px", color: "#555555", backgroundColor: '#cec096', fontSize: '16px', fontWeight: 700, border: 'none', marginTop: '15px' }}>Find out more about Iyengar
-                Yoga Assessment here</Button>
+                Yoga Assessment here</Button> */}
             </div>            
           </Col>          
           {/* <Col md={6}>
